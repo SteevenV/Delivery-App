@@ -1,0 +1,16 @@
+/** Media Queries **/
+.favoritos {
+  background-color: #eceeef;
+  padding: 5rem 0;
+}
+
+@media (min-width: 827px) {
+  .favoritos__grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/*# sourceMappingURL=favoritos.css.map */

@@ -1,0 +1,59 @@
+/** Media Queries **/
+.descargas {
+  background-color: #eceeef;
+  padding: 5rem 0;
+}
+.descargas__grid {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media (min-width: 827px) {
+  .descargas__grid {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.descargas__imagen {
+  width: 50%;
+  margin: 4rem auto 0 auto;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+@media (min-width: 827px) {
+  .descargas__imagen {
+    margin-top: 0;
+  }
+}
+.descargas__imagen:hover {
+  transform: rotate(4deg) scale(1.2);
+}
+.descargas .tiendas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.descargas .tiendas h3, .descargas .tiendas p {
+  text-align: center;
+}
+.descargas .tiendas h3 {
+  margin: 2rem 0 0 0;
+  color: #455a64;
+}
+.descargas .tiendas p {
+  margin-bottom: 3rem;
+}
+.descargas .tiendas__grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.descargas .tiendas__enlace {
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.descargas .tiendas__enlace:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=descargas.css.map */

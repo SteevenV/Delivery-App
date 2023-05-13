@@ -1,0 +1,54 @@
+/** Media Queries **/
+.gana {
+  margin: 5rem 0;
+}
+.gana h2 {
+  text-align: center;
+  color: #455a64;
+}
+.gana__contenido {
+  display: grid;
+  gap: 5rem;
+}
+@media (min-width: 827px) {
+  .gana__contenido {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.gana__informacion {
+  line-height: 1.5;
+  color: #455a64;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.gana__informacion p {
+  line-height: 1.5;
+  color: #455a64;
+}
+.gana__enlace {
+  background-color: #e8505b;
+  font-size: 2rem;
+  padding: 1.2rem 3rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+.gana__enlace:hover {
+  cursor: pointer;
+  background-color: #e22331;
+}
+@media (min-width: 827px) {
+  .gana__enlace {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=gana.css.map */
